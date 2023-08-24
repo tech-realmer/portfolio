@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+              @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+
+        .animated-text {
+            animation: bounce 5s infinite;
+        }
+                @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in-text {
+            opacity: 0;
+            animation: fadeIn 2s ease-in forwards;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+        button {
+         font-family: sans-serif;
+         border-radius: 30px;
+         padding: 20px;
+         font-size: 15px;
+         background-color: purple;
+         color: #2E002E;
+      }
+           img {
+          border-radius: 1px;
+          width: 100%;
+          height: auto;
+      }
+      h1 {
+          margin-left: 10px;
+          margin-right: 10px;
+          
+      }
+      h2 {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+      h3 {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+      p {
+          margin-left: 15px;
+          margin-right: 15px;
+          font-size: 15px;
+      }
+
+        header {
+            background-color: #29002D; /* Purple */
+            color: #FFD700; /* Gold */
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #4B0082; /* Purple */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            color: #4B0082; /* Purple */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Add more styles for different sections as needed */
+
+        footer {
+            background-color: #29002D; /* Purple */
+            color: #FFD700; /* Gold */
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: times new roman">Tech Realmer</h1>
+        <p>Frontend Web Developer</p>
+
+         <img src="20230710_182546-01.jpeg" />
+    </header>
+    <div class="container">
+        <section id="about">
+            <div class="animated-text">
+            <h1 style="font-family: Arial  sans-serif; color: #29002D; font-size: 40px;">'Greetings'</h1>
+            </div>
+            <p class="fade-in-text"><i>I'm <span style="color: purple"><b>FOLARIN FAVOUR ADEOLUWA</b></span>, a software developer, tech writer, data scientist, and computer enthusiast who has had the privilege of crafting both a College Website for Students and an Agro Company Website. Through code and words, I've seamlessly merged academia and agriculture in the digital realm. My work has breathed life into these platforms, offering students a haven of knowledge and bridging the gap between technology and cultivation. In this age of digitization, I find purpose in sculpting virtual landscapes that empower and inspire..</i></p>
+        </section>
+        <br />
+        <hr color="#29002D"/>
+        <br />
+        <section id="skills">
+         <div class="animated-text"><h1 style="font-family: times new roman; font-size: 40px; color: #29002D;">'Skills'</h2> </div>
+            <p class="fade-in-text">
+            <ul style="margin: 20px">
+                <li>HTML</li>
+                <br />
+                <li>CSS</li>
+                <br />
+                <li>JavaScript</li>
+                <br />
+                <li>React</li>
+                <br />
+                <li>Teaching services</li>
+                <br />
+                <li> Data Analytics</li>
+                <br />
+                <li> Python</li>
+                <br />
+                <li> Medical Technologist</li>
+                <br />
+                <li> Medical Tech Consultant</li>
+
+            </ul>
+            </p>
+        </section>
+        <hr color="29002D" />
+        <br />
+
+        <section id="projects">
+         <div class="animated-text"> <h1 style="font-family: times new roman; font-size: 40px; color: #29002D">'Projects'</h1> </div>
+            <div style="margin: 10px">
+               <button> <a style="color: white; text-decoration: none;" href="https://tech-realmer.github.io/lautech-freshers/"> lautechfreshers.com.ng</a> </button>
+               </div>
+            <!-- Add your project details here -->
+        </section>
+        <hr color="purple" />
+        <br />
+
+        <section id="contact">
+          <div class="animated-text"><h1 style="font-family: times new roman; font-size: 40px; color: #29002D">Contact Me</h1></div>
+            <p>Email: <a href="techrealmer@gmail.com">techrealmer@gmail.com<a/>
+            <p>Twitter: <a href="https://twitter.com/FolarinFavour1?t=sutm4cB-R5AF5ek8bWDqFw&s=09">Tech Realmer</a></p>
+            <!-- Add more contact information as needed -->
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Tech Realmer
+    </footer>
+</body>
+</html>
